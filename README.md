@@ -4,10 +4,10 @@ Exercises from the ["Eloquent JavaScript" book](http://eloquentjavascript.net/)
 
 ## Progress
 
-- [ ] 1.  Values, Types, and Operators
-- [ ] 2.  Program Structure
-- [ ] 3.  Functions
-- [ ] 4.  Data Structures: Objects and Arrays
+- [x] 1.  Values, Types, and Operators
+- [x] 2.  Program Structure
+- [x] 3.  Functions
+- [x] 4.  Data Structures: Objects and Arrays
 - [ ] 5.  Higher-order Functions
 - [ ] 6.  The Secret Life of Objects
 - [ ] 7.  Project: Electronic Life
