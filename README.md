@@ -8,7 +8,7 @@ Exercises from the ["Eloquent JavaScript" book](http://eloquentjavascript.net/)
 - [x] 2.  Program Structure
 - [x] 3.  Functions
 - [x] 4.  Data Structures: Objects and Arrays
-- [ ] 5.  Higher-order Functions
+- [x] 5.  Higher-order Functions
 - [ ] 6.  The Secret Life of Objects
 - [ ] 7.  Project: Electronic Life
 - [ ] 8.  Bugs and Error Handling
