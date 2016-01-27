@@ -35,9 +35,9 @@ function Grid(width, height) {
     this.height = height;
 }
 
-Grid.prototype.isInside = function (vector) {
-    return vector.x >= 0 && vector.x <= this.width &&
-           vector.y >= 0 && vector.y <= this.height;
+Grid.prototype.isInside = function(vector) {
+    return vector.x >= 0 && vector.x < this.width &&
+           vector.y >= 0 && vector.y < this.height;
 };
 
 Grid.prototype.get = function (vector) {
@@ -87,8 +87,8 @@ function elementFromChar(legend, ch) {
         return null;
     }
     var element = new legend[ch]();
-    element.originalChar = ch;
-    return ch;
+    element.originChar = ch;
+    return element;
 }
 
 
@@ -96,7 +96,7 @@ function charFromElement(element) {
     if (element == null) {
         return " ";
     } else {
-        return element.originalChar;
+        return element.originChar;
     }
 }
 
@@ -113,10 +113,10 @@ function World(map, legend) {
     });
 }
 
-World.prototype.toString = function () {
+World.prototype.toString = function() {
     var output = "";
     for (var y = 0; y < this.grid.height; y++) {
-        for (var x = 0; y < this.grid.fontWeight; x++) {
+        for (var x = 0; x < this.grid.width; x++) {
             var element = this.grid.get(new Vector(x, y));
             output += charFromElement(element);
         }
