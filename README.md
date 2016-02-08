@@ -11,7 +11,7 @@ Exercises from the ["Eloquent JavaScript" book](http://eloquentjavascript.net/)
 - [x] 5.  Higher-order Functions
 - [x] 6.  The Secret Life of Objects
 - [x] 7.  Project: Electronic Life
-- [ ] 8.  Bugs and Error Handling
+- [x] 8.  Bugs and Error Handling
 - [ ] 9.  Regular Expressions
 - [ ] 10. Modules
 - [ ] 11. Project: A Programming Language
