@@ -12,7 +12,7 @@ Exercises from the ["Eloquent JavaScript" book](http://eloquentjavascript.net/)
 - [x] 6.  The Secret Life of Objects
 - [x] 7.  Project: Electronic Life
 - [x] 8.  Bugs and Error Handling
-- [ ] 9.  Regular Expressions
+- [x] 9.  Regular Expressions
 - [ ] 10. Modules
 - [ ] 11. Project: A Programming Language
 - [ ] 12. JavaScript and the Browser
